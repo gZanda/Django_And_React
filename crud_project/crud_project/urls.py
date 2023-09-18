@@ -16,7 +16,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from tasks_app import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('tasks/', views.getTasks, name='getTasks'),            # GET ALL
+    path('tasks/<str:title>/', views.getTask, name='getTask'),  # GET ONE by title
+    path('tasks/create/', views.createTask, name='createTask'), # POST
+    path('tasks/delete/<str:title>/', views.deleteTask, name='deleteTask'), # DELETE by title
 ]
