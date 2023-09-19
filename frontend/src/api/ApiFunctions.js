@@ -13,3 +13,10 @@ export  const  createTask = (task) => {
     return  axios.post('http://localhost:8000/tasks/create/', task);
 
 }
+
+// DELETE
+export const  deleteTask = (title) => {
+    
+        return  axios.delete('http://localhost:8000/tasks/delete/' + title);
+    
+    }

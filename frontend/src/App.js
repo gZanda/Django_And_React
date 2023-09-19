@@ -13,6 +13,7 @@ function App() {
                 <Route path="/" element={<TasksPage />} />
                 <Route path="/tasks" element={<TasksPage />} />
                 <Route path="/tasks/create" element={<TaskFormPage />} />
+                <Route path="/tasks/:title" element={<TaskFormPage />} />
             </Routes>
         </BrowserRouter>
     );
