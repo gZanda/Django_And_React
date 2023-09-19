@@ -24,4 +24,5 @@ urlpatterns = [
     path('tasks/search/<str:title>/', views.getTask, name='getTask'),  # GET ONE by title
     path('tasks/create/', views.createTask), # POST
     path('tasks/delete/<str:title>/', views.deleteTask, name='deleteTask'), # DELETE by title
+    path('tasks/update/<str:title>/', views.updateTask, name='updateTask'), # PUT by title
 ]

@@ -38,3 +38,15 @@ def deleteTask(request, title):
         return Response(status=status.HTTP_204_NO_CONTENT)
     except:
         return Response(status=status.HTTP_404_NOT_FOUND)
+
+# PUT by title
+@api_view(['PUT'])
+def updateTask(request, title):
+    try:
+        task = Task.objects.get(title=title)
+        serializer = TaskSerializer(instance=task, data=request.data)
+        if serializer.is_valid():
+            serializer.save()
+        return Response(serializer.data, status=status.HTTP_202_ACCEPTED)
+    except:
+        return Response(status=status.HTTP_404_NOT_FOUND)

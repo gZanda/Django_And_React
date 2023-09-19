@@ -2,21 +2,42 @@ import {useForm} from 'react-hook-form';
 import { createTask } from '../api/ApiFunctions';
 import {useNavigate, useParams} from 'react-router-dom';
 import { deleteTask } from '../api/ApiFunctions';
+import { useEffect } from 'react';
+import { updateTask } from '../api/ApiFunctions';
+import { getTask } from '../api/ApiFunctions';
 
 export function TaskFormPage() {
 
-    const {register, handleSubmit, formState:{ errors }} = useForm();
+    const {register, handleSubmit, formState:{ errors }, setValue} = useForm();
 
     const navigate = useNavigate();
     
     const params = useParams();
-    console.log(params);
 
     const submitForm = handleSubmit( async data => {
-        const res = await createTask(data);
-        console.log(res);
+        if (params.title){
+            await updateTask(params.title, data);
+        }
+        else{
+            await createTask(data);
+        }
         navigate('/tasks');
     });
+
+    useEffect(() => {
+
+        async function loadTask(){
+
+            if (params.title){
+                const res = await getTask(params.title)
+                setValue("title", res.data.title);
+                setValue("description", res.data.description);
+            }
+
+        }
+        loadTask();
+
+    }, [params.title]);
 
     return (
         <div>
