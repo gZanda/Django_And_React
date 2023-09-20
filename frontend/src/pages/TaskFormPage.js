@@ -5,6 +5,7 @@ import { deleteTask } from '../api/ApiFunctions';
 import { useEffect } from 'react';
 import { updateTask } from '../api/ApiFunctions';
 import { getTask } from '../api/ApiFunctions';
+import { toast } from 'react-hot-toast';
 
 export function TaskFormPage() {
 
@@ -17,9 +18,11 @@ export function TaskFormPage() {
     const submitForm = handleSubmit( async data => {
         if (params.title){
             await updateTask(params.title, data);
+            toast.success("Task Updated");
         }
         else{
             await createTask(data);
+            toast.success("Task Created");
         }
         navigate('/tasks');
     });
@@ -63,6 +66,7 @@ export function TaskFormPage() {
                 const accept = window.confirm("Are you sure you want to delete this task?")
                 if(accept){
                     await deleteTask(params.title);
+                    toast.success("Task Deleted");
                     navigate('/tasks');
                 }
             }}> Delete </button>}
