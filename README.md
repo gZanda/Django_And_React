@@ -7,9 +7,9 @@
 mkdir Django_Project
 ```
 - Move to it
-´´´Shell
+´´´´Shell
 cd Django_Project
-´´´
+´´´´
 - Create Virtual Environment
 ´´´Shell
 python3 -m venv .venv
