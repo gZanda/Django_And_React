@@ -2,6 +2,7 @@
 
 # Setup the Project
 
-'''
-mkdir Django_Project
-'''
+```python
+def hello_world():
+print("Hello, World!")
+```
