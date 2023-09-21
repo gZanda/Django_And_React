@@ -1,5 +1,6 @@
-# Django_React_Crud
+# Django & React Guide 📚​
 
-Projeto feito para compreender como funciona a integração Django & React.
+## Start the Project
+''' python
 
-Utilizando RestFramework, Django Virtual Environment e React.
+'''
