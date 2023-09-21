@@ -7,45 +7,45 @@
 mkdir Django_Project
 ```
 - Move to it
-´´´´Shell
+```Shell
 cd Django_Project
-´´´´
+```
 - Create Virtual Environment
-´´´Shell
+```Shell
 python3 -m venv .venv
-´´´
+```
 - Start the Virtual environment
-´´´Shell
+```Shell
 . .venv/bin/activate
-´´´
+```
 - Install dependencies
-´´´Shell
+```Shell
 pip install django
 pip install djangorestframework
 pip install django-cors-headers
-´´´
+```
 - Make the project folder
-´´´Shell
+```Shell
 django-admin startproject drinks_project
-´´´
+```
 - Move to it
-´´´Shell
+```Shell
 cd drinks_project/
-´´´
+```
 - Add dependencies to "Settings.py"
-´´´Shell
+```Shell
 'rest_framework',
 'corsheaders',
-´´´
+```
 - Create SuperUser
-´´´Shell
+```Shell
 python manage.py createsuperuser
-´´´
+```
 - Migrate to resolve errors
-´´´Shell
+```Shell
 python manage.py migrate
-´´´
+```
 - Runserver
-´´´Shell
+```Shell
 python manage.py runserver
-´´´
+```
