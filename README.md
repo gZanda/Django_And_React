@@ -1,6 +1,7 @@
 # Django & React Guide 📚​
 
-# Setup the Projecct
-'''shell
+# Setup the Project
+
+'''
 mkdir Django_Project
 '''
