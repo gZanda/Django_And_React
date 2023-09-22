@@ -1,8 +1,6 @@
 # Django & React Guide 📚
 > By: Gabriel Zanda
 
-> A quick guide on how to integrate **Django** and **React**
-
 ## 📌 Project Setup
 
 - Create Project Global Wrapper:
