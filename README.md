@@ -1,7 +1,7 @@
 > By: Gabriel Zanda
 # Django & React Guide 📚
 
-## 📌 Project Setup
+### 📌 Project Setup
 
 - Create Project Global Wrapper:
 ```Shell
