@@ -2,6 +2,7 @@
 > By: Gabriel Zanda
 
 > Just a Silly guy doing Silly things ツ
+---
 
 ## 📌 Project Setup
 
