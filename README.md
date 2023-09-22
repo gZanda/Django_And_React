@@ -32,12 +32,12 @@ pip install django-cors-headers
 
 - Make the project folder:
 ```Shell
-django-admin startproject drinks_project
+django-admin startproject tasks_project
 ```
 
 - Move to it:
 ```Shell
-cd drinks_project/
+cd tasks_project/
 ```
 
 - Add dependencies to "Settings.py":
@@ -49,7 +49,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'tasks_app',        # new app
+    'tasks_app',        # new app             ------------------
     'rest_framework',   # new dependency
     'corsheaders',      # new dependency
 ]
@@ -83,3 +83,5 @@ python manage.py migrate
 ```Shell
 python manage.py runserver
 ```
+
+### 📌 Creating APPS
