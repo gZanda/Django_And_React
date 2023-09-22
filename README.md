@@ -1,4 +1,4 @@
-<span style="font-size: 2em; font-weight: bold;"> Django & React Guide 📚 </span> 
+<span style="font-size: 5em; font-weight: bold;"> Django & React Guide 📚 </span> 
 
 Basic guide on how to create a CRUD application with **Django**, **Rest Framework** and **React**
 
