@@ -1,7 +1,5 @@
 # Django & React Guide 📚
 
-Basic guide on how to create a CRUD application with **Django**, **Rest Framework** and **React**
-
 ## How to setup the project ?
 
 - Create Project Global Wrapper:
