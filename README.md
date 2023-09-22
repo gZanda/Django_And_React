@@ -1,6 +1,6 @@
 # Django & React Guide 📚
 
-### How to setup the project ?
+### **Project Setup**
 
 - Create Project Global Wrapper:
 ```Shell
