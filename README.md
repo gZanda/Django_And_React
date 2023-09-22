@@ -1,7 +1,7 @@
 # Django & React Guide 📚
 > By: Gabriel Zanda
 
-> Just a Silly guy doing Silly things ツ
+> Just a silly guy doing silly things ツ
 
 ## 📌 Project Setup
 
