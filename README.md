@@ -1,26 +1,5 @@
 # Django & React Guide 📚
 
-
-## Models
-
-- Model is the image of the database
-- Python has ORM
-- Creaging a model:
-
-```python
-# models.py -> APP
-
-# Import Models
-from django.db import models
-
-# Use python ORM
-class TodoItem(models.Model):
-    title = models.CharField(max_length=256)
-    completed = models.BooleanField(default=False)
-```
-
-- Add to the Admin.py:
-
 ## How to setup the project ?
 
 - Create Project Global Wrapper:
