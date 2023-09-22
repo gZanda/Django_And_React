@@ -1,4 +1,4 @@
-# Django & React Guide 📚
+### Django & React Guide 📚
 
 ## How to setup the project ?
 
