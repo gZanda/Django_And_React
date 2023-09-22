@@ -1,5 +1,6 @@
-# Django & React Guide 📚
-> By: Gabriel Zanda
+# Title
+Some additional text below the title.
+---
 
 ## 📌 Project Setup 📌
 
