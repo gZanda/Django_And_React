@@ -1,4 +1,4 @@
-<h1 style="font-size: 5em; font-weight: bold;"> Django & React Guide 📚 </h1> 
+<h1> Django & React Guide 📚 </h1> 
 
 Basic guide on how to create a CRUD application with **Django**, **Rest Framework** and **React**
 
