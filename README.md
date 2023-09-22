@@ -1,5 +1,5 @@
-# Django & React Guide 📚​
-> Basic guide on how to create a CRUD application with **Django**, **Rest Framework** and **React**
+# Django & React Guide 📚
+Basic guide on how to create a CRUD application with **Django**, **Rest Framework** and **React**
 
 ## how to setup the project ?
 
