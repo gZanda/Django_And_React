@@ -4,12 +4,12 @@
 ## 📌 Project Setup 📌
 
 - Create Project Global Wrapper:
-```Shell
+```shell
 mkdir Django_Project
 ```
 
 - Move to it:
-```Shell
+```
 cd Django_Project
 ```
 
