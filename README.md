@@ -1,6 +1,5 @@
-# Title
-Some additional text below the title.
----
+# Django & React Guide 📚
+> By: Gabriel Zanda
 
 ## 📌 Project Setup 📌
 
