@@ -6,32 +6,39 @@
 ```Shell
 mkdir Django_Project
 ```
+
 - Move to it:
 ```Shell
 cd Django_Project
 ```
+
 - Create Virtual Environment:
 ```Shell
-python3 -m venv .venv
+python3 -m venv venv
 ```
+
 - Start the Virtual environment:
 ```Shell
-. .venv/bin/activate
+. venv/bin/activate
 ```
+
 - Install dependencies:
 ```Shell
 pip install django
 pip install djangorestframework
 pip install django-cors-headers
 ```
+
 - Make the project folder:
 ```Shell
 django-admin startproject drinks_project
 ```
+
 - Move to it:
 ```Shell
 cd drinks_project/
 ```
+
 - Add dependencies to "Settings.py":
 ```python
 INSTALLED_APPS = [
@@ -46,6 +53,7 @@ INSTALLED_APPS = [
     'corsheaders',      # new dependency
 ]
 ```
+
 - Add "Cors" middleware:
 ```python
 MIDDLEWARE = [
@@ -59,14 +67,17 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 ```
+
 - Create SuperUser:
 ```Shell
 python manage.py createsuperuser
 ```
+
 - Migrate to resolve errors:
 ```Shell
 python manage.py migrate
 ```
+
 - Runserver:
 ```Shell
 python manage.py runserver
