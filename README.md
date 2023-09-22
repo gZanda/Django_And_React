@@ -1,6 +1,5 @@
-# Django & React Guide 📚 [^1]
-
-[^1]: This is the footnote.
+# Django & React Guide 📚
+> By: Gabriel Zanda
 
 ## 📌 Project Setup 📌
 
