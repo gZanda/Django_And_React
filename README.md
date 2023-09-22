@@ -1,4 +1,5 @@
 # Django & React Guide 📚
+---
 > By: Gabriel Zanda
 
 > Just a Silly guy doing Silly things ツ
