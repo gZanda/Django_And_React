@@ -1,7 +1,7 @@
 # Django & React Guide 📚
-SaaS
+> By Gabriel Zanda
 
-### 📌 Project Setup 📌
+## 📌 Project Setup 📌
 
 - Create Project Global Wrapper:
 ```Shell
