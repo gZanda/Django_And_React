@@ -25,10 +25,10 @@ python3 -m venv venv
 
 - Install dependencies:
 ```Shell
-pip install django
-pip install djangorestframework
-pip install django-cors-headers
-pip install psycopg2-binary
+pip install django                 # Web Framework
+pip install djangorestframework    # Rest API
+pip install django-cors-headers    # Cors Origin 
+pip install psycopg2-binary        # Posrgree Integration
 ```
 
 - Start project ( will make a new folder ):
