@@ -70,7 +70,7 @@ MIDDLEWARE = [
 ```
 
 - Adjust the Cors Origin URL:
-```
+```python
 CORS_ALLOWED_ORIGINS = ["http://localhost:3000"]
 ```
 
