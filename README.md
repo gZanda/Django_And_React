@@ -28,9 +28,10 @@ python3 -m venv venv
 pip install django
 pip install djangorestframework
 pip install django-cors-headers
+pip install psycopg2-binary
 ```
 
-- Make the project folder:
+- Start project ( will make a new folder ):
 ```Shell
 django-admin startproject tasks_project
 ```
@@ -49,7 +50,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'tasks_app',        # new app             ------------------
     'rest_framework',   # new dependency
     'corsheaders',      # new dependency
 ]
@@ -67,6 +67,11 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+```
+
+- Adjust the Cors Origin URL:
+```
+CORS_ALLOWED_ORIGINS = ["http://localhost:3000"]
 ```
 
 - Create SuperUser:
