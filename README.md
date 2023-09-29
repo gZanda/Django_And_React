@@ -15,9 +15,9 @@ Project made to understand how to create a complete Web Project integrating DJAN
 
 ## 📌 Django Guide
 
-[✅​ 1° - Warnings and Reminders](/>%20DJANGO%20GUIDE/0.Warnings%20and%20Reminders.md)
+[☕​​ 1 - Warnings and Reminders](/>%20DJANGO%20GUIDE/0.Warnings%20and%20Reminders.md)
 
-[✅​ 2° - Project Setup](/>%20DJANGO%20GUIDE/1.%20Project%20Setup.md)
+[☕​ 2 - Project Setup](/>%20DJANGO%20GUIDE/1.%20Project%20Setup.md)
 
 ## 📌 React Guide
 
