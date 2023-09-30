@@ -1,6 +1,6 @@
 > By: Gabriel Zanda
 
-# Django & React Guide 📚
+# 📚 Django & React Guide 
 
 ## 📌 About
 
