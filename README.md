@@ -21,7 +21,7 @@ Project made to understand how to create a complete Web Project integrating DJAN
 
 [2° - Connecting with Postgre](/>%20DJANGO%20GUIDE/2.%20Connecting%20With%20Postgre.md)
 
-[3° - App's](/>%20DJANGO%20GUIDE/3.%20Creating%20an%20App's.md)
+[3° - App's](/>%20DJANGO%20GUIDE/3.%20App's.md)
 
 ## 📌 React Guide
 
