@@ -11,7 +11,7 @@ Project made to understand how to create a complete Web Project integrating DJAN
 -   Django
 -   Django Rest
 -   React
--   Postgre
+-   PostgreSQL
 
 ## 📌 Django Guide
 
