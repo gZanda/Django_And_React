@@ -15,7 +15,7 @@ Project made to understand how to create a complete Web Project integrating DJAN
 
 ## 📌 Django Guide
 
-[0° - Warnings and Reminders](/>%20DJANGO%20GUIDE/0.%20Reminders.md)
+[0° - Reminders](/>%20DJANGO%20GUIDE/0.%20Reminders.md)
 
 [1° - Project Setup](/>%20DJANGO%20GUIDE/1.%20Project%20Setup.md)
 
@@ -25,7 +25,7 @@ Project made to understand how to create a complete Web Project integrating DJAN
 
 ## 📌 React Guide
 
--
+[0° - Reminders](/>%20REACT%20GUIDE/0.%20Reminders.md)
 
 ## 📌 Enjoy
 
