@@ -39,6 +39,8 @@ Project made to understand how to create a Web Application integrating DJANGO an
 
 [6° - Event Handling](/>%20REACT%20GUIDE/6.%20Event%20Handling.md)
 
+[7° - API connection](/>%20REACT%20GUIDE/7.%20API%20connection.md)
+
 ## 📌 Enjoy
 
 ![utitled](/Images/CatLike.jpg)
