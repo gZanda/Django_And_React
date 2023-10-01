@@ -37,6 +37,8 @@ Project made to understand how to create a Web Application integrating DJANGO an
 
 [5° - React Hooks](/>%20REACT%20GUIDE/5.%20React%20Hooks.md)
 
+[6° - Event Handling](/>%20REACT%20GUIDE/6.%20Event%20Handling.md)
+
 ## 📌 Enjoy
 
 ![utitled](/Images/CatLike.jpg)
