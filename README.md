@@ -27,6 +27,12 @@ Project made to understand how to create a complete Web Project integrating DJAN
 
 [0° - Reminders](/>%20REACT%20GUIDE/0.%20Reminders.md)
 
+[1° - React Setup](/>%20REACT%20GUIDE/1.%20React%20Setup.md)
+
+[2° - Organization](/>%20REACT%20GUIDE/2.%20Organization.md)
+
+[3° - Components](/>%20REACT%20GUIDE/3.%20Components.md)
+
 ## 📌 Enjoy
 
 ![utitled](/Images/CatLike.jpg)
