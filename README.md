@@ -33,6 +33,8 @@ Project made to understand how to create a Web Application integrating DJANGO an
 
 [3° - Components](/>%20REACT%20GUIDE/3.%20Components.md)
 
+[4° - Routering](/>%20REACT%20GUIDE/4.%20Routering.md)
+
 ## 📌 Enjoy
 
 ![utitled](/Images/CatLike.jpg)
