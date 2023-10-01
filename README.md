@@ -4,7 +4,7 @@
 
 ## 📌 About
 
-Project made to understand how to create a complete Web Project integrating DJANGO and REACT
+Project made to understand how to create a Web Application integrating DJANGO and REACT
 
 ## 📌 Technologies
 
