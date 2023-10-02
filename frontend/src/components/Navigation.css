@@ -1,0 +1,12 @@
+#navbar {
+    background: #d4c240;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navItem {
+    color: aliceblue;
+}
