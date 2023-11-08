@@ -41,6 +41,6 @@ Project made to understand how to create a Web Application integrating DJANGO an
 
 [7° - API connection](/>%20REACT%20GUIDE/7.%20API%20connection.md)
 
-## 📌 Enjoy
+## 📌 Enjoy :)
 
 ![utitled](/Images/CatLike.jpg)
